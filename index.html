@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>new</title>
+</head>
+<body bgcolor="cyan" align=center>
+    <!--we use "html entities" to display special characters in html like-->&lt; <!--search on google "html entities" list and go for list by w3schools--> 
+    <h1>Heading 1</h1>
+    <hr size="1" width="500">
+    <marquee behavior="alternate">hello friends.. Pani pi lo..</marquee>
+    <marquee behavior="scroll" direction="">text</marquee>
+    <marquee behavior="slide" direction="">.                    text</marquee>
+    <hr width="600">
+    <ol align=left>
+        <li>First grade
+            <ul>
+                <li>alphabets</li>
+                <li>numbers</li>
+
+            </ul>
+        </li>
+        <li>7 <sup>th</sup> grade
+            <ul>
+                <li>find x</li>
+                <li>number <sup>number</sup></li>
+            </ul>
+        </li>
+    </ol>
+    <img src="images/rohan.jpg" alt="image" width="500" height="300"> <br>
+    <a href="page2.html" target="_blank">Page 2</a> <br> <hr width="200">
+    <marquee behavior="alternate" direction="up" height=100>
+        <marquee behavior="alternate" hspace=42%><a href="marquee.html">different marquees</a></marquee>
+    </marquee> <hr width="200">
+    <hr>
+    <video src="videos/ayush.mp4" width="400" controls loop muted poster="images/ayush.png">what is this</video> <!--we can use autoplay attribute in video tag -->
+     <br> embeded youtube video <br>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/2QR11oDukn4?start=1416" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <h4>you can search anything.. if you want</h4>
+    <iframe src="https://www.bing.com" height="80%" width="60%"></iframe> <br><br>
+    click <a href="form.htm" target="_blank"> here</a> to go to payment form. <br> <br>
+    <a href="table.html">link</a> to Time Table.
+</body>
+<p>To search on google just type and press go</p>
+<form action="https://www.google.com/search" class="searchform" method="get" name="searchform" target="_blank">
+    <input class="form-control search" name="q" required type="text">
+    <button class="button" type="submit">go</button>
+</form>
+<a href="../form.htm">form</a> <!-- using ../ in link gives command to html to go to last folder, in this case local disk E-->
+<a href="/folder 2/Page2.html">page 2</a> <!-- using / in starting of link gives command to html to go to the folder which we name after that.. after this we can link a file by naming it after / -->
+</html>
